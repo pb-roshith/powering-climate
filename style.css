@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),
+     rgba(0,0,0,0.75)), url(main.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.bp{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+.bp2{
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+.bp3{
+    width: 100%;
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+.creator{
+    width: 170px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    background-color: teal;
+    margin-left: 30px;
+}
+.d1{
+    height: 380px;
+    background-color: cadetblue;
+}
+.d1 h1{
+    color: #fff;
+    padding: 10px;
+}
+.o li{
+    margin-left: 30px;
+    color: white;
+}
+.lastb{
+    width: 170px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    background-color: rgba(45, 204, 13, 0.79);
+    margin-left: 30px;
+}
+.lastb:hover{
+    background-color: #fff;
+    color: teal;
+}
+.creator:hover{
+    background-color: #fff;
+    color: teal;
+}
+.creator a{
+    text-decoration: none;
+}
+.cle{
+    overflow: auto;
+    border: 5px solid #4CAF50;
+    padding: 5px;
+}
+.cha{
+    overflow: auto;
+    border: 5px solid orange;
+    padding: 5px;
+    position: relative;
+}
+.i1{
+    position: absolute;
+    left: 500px;
+    top: 170px;
+}
+.iimg{
+    float: right;
+}
+.iimg2{
+    float: left;
+}
+.chart{
+    background-color: orange;
+    color: #fff;
+    padding: 20px;
+}
+.tech{
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 20px;
+}
+.last{
+    background-color: teal;
+    height: 250px;
+    text-align: center;
+    color: #fff;
+    padding: 30px;
+}
+.last h2{
+    padding-bottom: 30px;
+}
+.last p{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.x{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),
+     rgba(0,0,0,0.75)), url(cl.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.con{
+    background-color: powderblue;
+}
+.image1{
+    float: right;
+    width:240px;
+    height:240px;
+    margin-left:15px;
+}  
+.image2{
+    float: left;
+    width:240px;
+    height:240px;
+    margin-left:15px;
+} 
+body {
+    font-family: cursive;
+}
+    
+a {
+    text-decoration: none;
+}
+    
+li {
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: teal;
+    color: #fff;
+    } 
+.nav-links a {
+    color: #fff;
+}
+.logo {
+    font-size: 32px;
+}
+.menu {
+    display: flex;
+    gap: 1em; 
+    font-size: 18px;
+}   
+.nu li:hover {
+    background-color: #4c9e9e;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+.menu li {
+    padding: 5px 14px;
+}
+.services {
+    position: relative; 
+}   
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: teal;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+input[type=submit]:hover {
+    background-color: green;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: teal;
+    height: auto;
+    width: 100vw;
+    padding-top: 5px;
+    color: #fff;
+    text-align: center;
+}
+
+.foot h3{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 3rem;
+}
+
+.foot p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.r{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.column {
+    float: left;
+    width: 300px;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+}
+.ti{
+    color: grey;
+    margin: 20px;
+}  
+.intt{
+    margin: 20px;
+    max-width: 200px;
+}
+.emm{
+    margin: 20px;
+}
+.wh{
+    margin: 20px;
+    padding-bottom: 20px;
+}
+.na{
+    margin: 20px;
+}
+.im{
+    max-width: 300px;
+}
